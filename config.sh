@@ -8,31 +8,31 @@
 
 ## Need To Fill
 #Sync - Required
-ROM_NAME=""
-ANDROID_VERSION=""
-REPO_URL=""
-REPO_BRANCH=""
-MANIFEST_URL=""
-MANIFEST_BRANCH=""
+ROM_NAME="CherishOS"
+ANDROID_VERSION="13"
+REPO_URL="https://github.com/cherishOS/android_manifest"
+REPO_BRANCH="tiramisu"
+MANIFEST_URL="https://github.com/vytska69/local-manifests"
+MANIFEST_BRANCH="cherish-vayu"
 
 #Build - Required
-DEVICE_CODENAME=""
-AUTO_ADAPT=""
-LUNCH_NAME=""
-BACON_NAME=""
+DEVICE_CODENAME="vayu"
+AUTO_ADAPT="N"
+LUNCH_NAME="cherish"
+BACON_NAME="bacon"
 
 #Upload stuff - Optional
-UPLOAD_TYPE=""
-UPLOAD_RECOVERY=""
-TG_USER=""
+UPLOAD_TYPE="GH"
+UPLOAD_RECOVERY="Y"
+TG_USER="@randomas30000"
 
 #Google Drive - Optional
 GD_PATH=""
 
 #Github Releases & OTA - Optional
-GH_USER=""
-GH_TOKEN=""
-GH_REPO_URL=""
+GH_USER="randomas3000"
+GH_TOKEN="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"
+GH_REPO_URL="device_xiaomi_vayu"
 OTA_JSON=""
 OTA_LIKE="" #LOS/PE/crDroid/Evox
 CUSTOM_ROM_ZIP_DOWNLOAD_URL="" #Mainly for FTP and gdrive users
@@ -61,7 +61,7 @@ FTP_PASS=""
 FTP_UPLOAD_URL=""
 
 #Telegram - Optional
-TG_TOKEN=""
-TG_CHAT=""
+TG_TOKEN="5017334855:AAGTC43-Oy7IRcWW5HnPo2Z3d2zXkFaQtDc"
+TG_CHAT="-1001882224691/124"
 
 source build.sh
