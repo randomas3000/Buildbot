@@ -31,7 +31,7 @@ GD_PATH=""
 
 #Github Releases & OTA - Optional
 GH_USER="randomas3000"
-GH_TOKEN="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"
+GH_TOKEN=""
 GH_REPO_URL="device_xiaomi_vayu"
 OTA_JSON=""
 OTA_LIKE="" #LOS/PE/crDroid/Evox
